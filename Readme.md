@@ -1,8 +1,17 @@
 # 📘 README
 
 ## Overview
-This repository contains a collection of **simple and educational Java examples** demonstrating three core language concepts:
+This repository contains a collection of **simple and educational Java examples** demonstrating three core language concepts.
 
+## 📥 How to Clone This Repository Locally
+
+To download the project to your computer, run the following command in your terminal:
+
+```bash
+git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
+
+Then move into the project folder:
+cd <Java-Exceptions-Interfaces>
 ---
 
 ## 1. Exceptions & Specified Exceptions (`try-catch` & `throws` / `throw`)
@@ -55,14 +64,6 @@ From the selected directory, run:
 javac *.java
 java FileName
 
-## 📥 How to Clone This Repository Locally
 
-To download the project to your computer, run the following command in your terminal:
-
-```bash
-git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
-
-Then move into the project folder:
-cd <Java-Exceptions-Interfaces>
 
 
