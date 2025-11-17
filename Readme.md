@@ -7,11 +7,12 @@ This repository contains a collection of **simple and educational Java examples*
 
 To download the project to your computer, run the following command in your terminal:
 
-```bash
+
 git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
 
 Then move into the project folder:
 cd <Java-Exceptions-Interfaces>
+
 ---
 
 ## 1. Exceptions & Specified Exceptions (`try-catch` & `throws` / `throw`)
