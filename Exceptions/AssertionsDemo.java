@@ -1,8 +1,10 @@
 public class AssertionsDemo {
+// This example demonstrates the use of assertions in Java to enforce preconditions and postconditions in a method. The `average` method calculates the average of an array of doubles, with assertions checking that the input array is not null and not empty (preconditions), and that the result is non-negative (postcondition). To run this code with assertions enabled, compile with `javac AssertionsDemo.java` and run with `java -ea AssertionsDemo`.
 
     public static void main(String[] args) {
-        //double[] values = {2.0, 4.0, 6.0};
-        //double avg = average(values);
+        //double[] values = {2.0, 4.0, 6.0}; 
+        //double avg = average(values); // valid case
+        
         // Uncomment to see each precondition violation separately:
 
         // double[] values = null; //1. Pre1

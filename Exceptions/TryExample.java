@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// This example demonstrates the use of try-catch-finally blocks in Java. The program prompts the user to enter a number and attempts to read it as an integer. If the input is not a valid integer, an InputMismatchException is caught, and an error message is displayed. The finally block ensures that the scanner is closed regardless of whether an exception occurred. Compile with `javac TryExample.java` and run with `java TryExample`.
 public class TryExample {
     public static void main(String[] args) {
         Scanner sc = null;

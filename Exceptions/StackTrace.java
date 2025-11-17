@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// This example demonstrates how Java provides a stack trace when an exception occurs. Based on its structure, you can trace back the sequence of method calls that led to the exception. You can run this code and intentionally cause an exception (like dividing by zero) to see the stack trace in action. Compile with `javac StackTrace.java` and run with `java StackTrace`.
 public class StackTrace {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

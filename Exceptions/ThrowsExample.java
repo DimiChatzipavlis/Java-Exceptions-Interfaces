@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//This example demonstrates how to declare and use a custom checked exception in Java. The `InvalidAgeException` is thrown when the user inputs an invalid age (negative or non-integer). The `readAge` method declares that it throws this exception, and the `main` method handles it appropriately. Compile with `javac ThrowsExample.java` and run with `java ThrowsExample`.
 public class ThrowsExample {
 
     public static void main(String[] args) {
