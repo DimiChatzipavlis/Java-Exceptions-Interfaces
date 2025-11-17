@@ -11,7 +11,7 @@ To download the project to your computer, run the following command in your term
 git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
 
 Then move into the project folder:
-cd <Java-Exceptions-Interfaces>
+cd Java-Exceptions-Interfaces
 
 ---
 
