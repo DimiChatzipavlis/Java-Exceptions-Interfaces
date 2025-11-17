@@ -31,3 +31,4 @@ class Robot implements SmartMachine {
         System.out.println("Robot is recharging...");
     }
 }
+//Those are all the interfaces and classes used for the RobotExample.java file. Beware of the @Override annotation, which indicates that a method is being overridden from an interface or superclass. In other words, it ensures that the method signature matches the one defined in the interface.
