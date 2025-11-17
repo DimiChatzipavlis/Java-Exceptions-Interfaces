@@ -52,7 +52,8 @@ The interface examples keep behavior simple so the structural concepts are clear
 From the selected directory, run:
 
 ```bash
-javac *.java --> java FileName
+javac *.java
+java FileName
 
 
 
