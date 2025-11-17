@@ -55,5 +55,14 @@ From the selected directory, run:
 javac *.java
 java FileName
 
+## 📥 How to Clone This Repository Locally
+
+To download the project to your computer, run the following command in your terminal:
+
+```bash
+git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
+
+Then move into the project folder:
+cd <Java-Exceptions-Interfaces>
 
 
