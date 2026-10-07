@@ -1,4 +1,7 @@
 public class MyException extends Exception {
+    // Exception implements Serializable, so give the class a fixed version id
+    private static final long serialVersionUID = 1L;
+
     // default constructor
     public MyException() {
         super();

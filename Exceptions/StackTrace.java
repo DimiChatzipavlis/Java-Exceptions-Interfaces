@@ -14,4 +14,4 @@ public class StackTrace {
     }
 }
 // Run this example with denominator as 0 to see the exception stack trace.
-//Also, try entering a non-integer value to see how it handles input mismatch exceptions.
+//Also, try entering a non-integer value: nothing catches it, so the program stops with an InputMismatchException stack trace.

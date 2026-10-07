@@ -7,15 +7,19 @@ This repository contains a collection of **simple and educational Java examples*
 
 To download the project to your computer, run the following command in your terminal:
 
-
+```bash
 git clone https://github.com/DimiChatzipavlis/Java-Exceptions-Interfaces.git
+```
 
 Then move into the project folder:
+
+```bash
 cd Java-Exceptions-Interfaces
+```
 
 ---
 
-## 1. Exceptions & Specified Exceptions (`try-catch` & `throws` / `throw`)
+## 1. Exceptions & Checked Exceptions (`try-catch` & `throws` / `throw`)
 These examples illustrate:
 
 - How to define and use **custom exceptions**
@@ -58,13 +62,23 @@ The interface examples keep behavior simple so the structural concepts are clear
 
 ### 0. Go to the appropriate directory (via cd command)
 
+```bash
+cd Exceptions    # or: cd Interfaces
+```
+
 ### 1. Compile all `.java` files & run the file you like
-From the selected directory, run:
+From the selected directory, run (replace `FileName` with a class that has a `main` method, e.g. `ThrowsExample`):
 
 ```bash
 javac *.java
 java FileName
+```
 
+If your `java` runtime is older than your `javac` (you get `UnsupportedClassVersionError`), compile with `javac --release 8 *.java` instead.
 
+### 2. Run the assertions example
+Assertions are disabled by default, so enable them with `-ea`:
 
-
+```bash
+java -ea AssertionsDemo
+```

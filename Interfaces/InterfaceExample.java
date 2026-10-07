@@ -11,13 +11,17 @@ interface SecondInterface {
 
 // DemoClass "implements" FirstInterface and SecondInterface
 class DemoClass implements FirstInterface, SecondInterface {
+  @Override
   public void myMethod() {
     System.out.println("Run the 1st interface...");
       try {
           sleep(1000);
       } catch (InterruptedException ex) {
+          // Never swallow this silently: restore the interrupt flag so callers can see it
+          Thread.currentThread().interrupt();
       }
   }
+  @Override
   public void myOtherMethod() {
     System.out.println("Run the 2nd interface...");
   }
